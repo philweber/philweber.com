@@ -1,0 +1,23 @@
+{
+  "subject": "acct:philweber@voiceover.actor",
+  "aliases": [
+    "https://voiceover.actor/@philweber",
+    "https://voiceover.actor/users/philweber"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://voiceover.actor/@philweber"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://voiceover.actor/users/philweber"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://voiceover.actor/authorize_interaction?uri={uri}"
+    }
+  ]
+}
